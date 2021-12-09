@@ -1,5 +1,6 @@
 from ubuntu:16.04
 ENV HOME /home/root
+
 ENV PYENV_ROOT $HOME/.pyenv
 
 ENV PATH $PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
